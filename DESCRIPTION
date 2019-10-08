@@ -1,0 +1,18 @@
+Package: votesmartr
+Type: Package
+Title: Pull politician ratings from VoteSmart
+Version: 0.1.0
+Authors@R: 
+    person(given = "Alexander",
+           family = "Rossell Hayes",
+           role = c("aut", "cre"),
+           email = "alexander@rossellhayes.com",
+           comment = c(ORCID = "0000-0001-9412-0457"))
+Description: Takes a URL for a table of politician ratings from the VoteSmart
+    website and returns a tibble with the ratings on each page.
+License: Creative Commons Attribution 4.0 International <https://creativecommons.org/licenses/by/4.0/>
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    magrittr
